@@ -16,18 +16,56 @@
 
 ## Introduction
 This project aims to develop a predictive maintenance system for manufacturing equipment using machine learning techniques. The system analyzes various machine parameters to predict potential failures, thereby allowing proactive maintenance actions to reduce downtime and improve operational efficiency.
-![GUI iNTERFACE](https://github.com/user-attachments/assets/32c33089-c57b-4ea9-9339-bc8ad358ecbf)
+![gui interface](https://github.com/user-attachments/assets/29713f85-183a-40ac-aa73-5e6f658786c5)
+
 
 ## Project Overview
 The predictive maintenance model utilizes data such as temperature, pressure, vibration, power consumption, and hours since the last maintenance to predict equipment failures. The project includes a user-friendly GUI that allows users to upload datasets and visualize predictions.
+/main
+└───predictive_maintenance_project-main
+    │   Figure_1.png
+    │   Figure_2.png
+    │   Figure_3.png
+    │   LICENSE
+    │   README.md
+    │   requirements.txt
+    │
+    ├───data
+    │   │   gndset.py
+    │   │
+    │   ├───processed
+    │   │       processed_data.csv
+    │   │
+    │   └───raw
+    │           machine_data.csv
+    │
+    ├───models
+    │       model.pkl
+    │
+    ├───src
+    │       data_processing.py
+    │       gui_prediction.py
+    │       train.py
+    │       __init__.py
+    │
+    └───test
+            dt2.py
+            finaldt3.py
+            machine_data_large.xlsx
+            synthetic_dataset.xlsx
+            testdset.py
+            test_data.xlsx
+
 
 ## Features
 - **Data Loading**: Users can upload Excel files containing machine data.
 - **Failure Prediction**: The model predicts failures based on input features.
 - **Result Visualization**: The application displays both loaded data and machines needing maintenance.
 - **Scrollbars**: The GUI includes horizontal and vertical scrollbars for easy navigation through large datasets.
-![LOADED DATA](https://github.com/user-attachments/assets/e7568256-efb0-4336-b366-28c07f14adea)
-![MAINTENANCE REQUIRED DATA](https://github.com/user-attachments/assets/885492fe-d41e-4c2c-8fc9-9d9fe8184bd5)
+![excel load data](https://github.com/user-attachments/assets/6d0ca549-93aa-49bf-ab3d-59497c1d6eab)
+
+![maintenance required data](https://github.com/user-attachments/assets/cbcd77a4-a61a-4770-a769-efb45a432678)
+
 
 
 ## Technologies Used
