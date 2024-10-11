@@ -16,6 +16,8 @@
 
 ## Introduction
 This project aims to develop a predictive maintenance system for manufacturing equipment using machine learning techniques. The system analyzes various machine parameters to predict potential failures, thereby allowing proactive maintenance actions to reduce downtime and improve operational efficiency.
+
+
 ![gui interface](https://github.com/user-attachments/assets/29713f85-183a-40ac-aa73-5e6f658786c5)
 
 
