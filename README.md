@@ -21,6 +21,7 @@ This project aims to develop a predictive maintenance system for manufacturing e
 
 ## Project Overview
 The predictive maintenance model utilizes data such as temperature, pressure, vibration, power consumption, and hours since the last maintenance to predict equipment failures. The project includes a user-friendly GUI that allows users to upload datasets and visualize predictions.
+```
 /main
 └───predictive_maintenance_project-main
     │   Figure_1.png
@@ -55,7 +56,7 @@ The predictive maintenance model utilizes data such as temperature, pressure, vi
             synthetic_dataset.xlsx
             testdset.py
             test_data.xlsx
-
+```
 
 ## Features
 - **Data Loading**: Users can upload Excel files containing machine data.
